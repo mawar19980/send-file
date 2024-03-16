@@ -1,0 +1,11 @@
+#!/bin/bash
+# xrandr-setting script
+
+# Create 1360x765 resolution mode
+xrandr --newmode '1360x765' 85.50 1360 1424 1536 1792 765 768 772 795 -hsync +vsync
+
+# Add new resolution mode to the display
+xrandr --addmode Virtual1 1360x765
+
+# Resize the display to use the new resolution mode
+xrandr --output Virtual1 --mode '1360x765' --rate 60
