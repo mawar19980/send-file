@@ -2,7 +2,7 @@
 set -e
 
 # Install dependencies
-sudo apt get install build-essential qmlscene qt5-qmake qtbase5-dev qtdeclarative5-dev qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick-dialogs qml-module-qtquick-localstorage qml-module-qtquick-window2 qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform qtquickcontrols2-5-dev
+sudo apt install build-essential qmlscene qt5-qmake qtbase5-dev qtdeclarative5-dev qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick-dialogs qml-module-qtquick-localstorage qml-module-qtquick-window2 qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel qml-module-qt-labs-platform qtquickcontrols2-5-dev
 
 # Clone cool-retro-term repository
 git clone --recursive https://github.com/Swordfish90/cool-retro-term.git
