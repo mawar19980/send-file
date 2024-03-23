@@ -3,6 +3,7 @@
 # Update the package database
 
 # Install required dependencies
+sudo apt-get -y install build-essential libgl1-mesa-dev
 sudo apt install -y qtbase5-dev qtquickcontrols2-5-dev \
     libkf5networkmanagerqt-dev libkf5kio-dev \
     libkf5screen-dev libqt5sensors5-dev \
